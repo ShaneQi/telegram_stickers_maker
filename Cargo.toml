@@ -1,0 +1,7 @@
+[package]
+name = "telegram_stickers_maker"
+version = "0.1.0"
+authors = ["Shane Qi <qizengtai@gmail.com>"]
+
+[dependencies]
+image = "0.15.0"
