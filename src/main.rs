@@ -14,7 +14,7 @@ fn main() {
 
     for dir_item in Path::new(&format!("{}", working_path)).read_dir().expect(
         &format!(
-            "Failed to find post directory: {}",
+            "Failed to find working directory: {}",
             working_path
         ),
     )
@@ -35,6 +35,5 @@ fn main() {
             }
         }
     }
-
 
 }
